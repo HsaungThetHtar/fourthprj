@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&display=swap');
+#menu{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    letter-spacing: 0.1em;
+}
+#left-menu li,#right-menu li{
+    margin-right: 20px;
+}
+#left-menu li a,#right-menu li a{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  
+}
+.carousel-caption{
+    left: 50%;
+    top: 20%;
+    text-align: left;
+    font-size: 40px;
+    width: 500px;
+    height: 200px;
+}
+#slider-left{
+    background-image: url(../images/left.png);
+    width: 50px;
+    height: 50px;
+}
+#slider-right{
+    background-image: url(../images/right.png);
+    width: 50px;
+    height: 50px;
+}
+.product{
+    position: relative;
+}
+.new-item{
+    position: absolute;
+    z-index: 2;
+    background: red;
+    left: 20px;
+    top: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+#left-explore,#right-featured{
+    border-top: 2px solid black;
+}
+.small-text{
+    font-size: 11px;
+    text-transform: uppercase;
+}
